@@ -13,3 +13,4 @@ if (args === 2) {
     i++;
   }
   while (args[i]);
+}
