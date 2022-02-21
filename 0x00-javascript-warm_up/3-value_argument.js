@@ -4,13 +4,14 @@ const process = require('process');
 
 const args = process.argv;
 
+let i = 0;
+
 if (args === 2) {
   console.log('No argument');
 } else {
   do {
-    let i = 0;
     console.log(args[i]);
-    i++;
+    i = i + 1;
   }
   while (args[i]);
 }
