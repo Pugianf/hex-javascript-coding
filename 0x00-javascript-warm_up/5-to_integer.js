@@ -11,5 +11,3 @@ if (x) {
 } else {
   console.log('Not a number');
 }
-
-
