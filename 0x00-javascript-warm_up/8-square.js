@@ -9,7 +9,7 @@ const x = parseInt(args[2]);
 if (x) {
   for (let a = 0; a < x; a++) {
     for (let i = 0; i < x; i++) {
-      console.log(X);
+      console.log('X');
     }
   }
 } else {
