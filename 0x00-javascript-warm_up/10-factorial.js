@@ -4,7 +4,7 @@ const process = require('process');
 
 const args = process.argv;
 
-const x = parseInt(args[2]);
+let x = parseInt(args[2]);
 
 let y = 1;
 
