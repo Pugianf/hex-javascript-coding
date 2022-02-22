@@ -7,6 +7,6 @@ let argsInt = [];
 if (args.length <= 1) {
   console.log(0);
 } else {
-  argsInt = args.sort();
-  console.log(argsInt[-2]);
+  argsInt = args.sort(function(a, b){return b-a});
+  console.log(argsInt[1]);
 }
