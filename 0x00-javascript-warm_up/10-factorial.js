@@ -4,14 +4,14 @@ const process = require('process');
 
 const args = process.argv;
 
-let x = parseInt(args[2]);
+const x = parseInt(args[2]);
 
 let y = 1;
 
-function factorial (x) {
+function factorial (z) {
   for (let p = 0; p < x; p++) {
-    y = x * (x - 1);
-    x = x - 1;
+    y = z * (z - 1);
+    x = z - 1;
   }
   return y;
 }
