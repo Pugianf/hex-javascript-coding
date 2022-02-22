@@ -6,16 +6,12 @@ const args = process.argv;
 
 const x = parseInt(args[2]);
 
-let y = 1;
-
-const k = x;
-
-function factorial (z) {
-  for (let p = 0; p < (k - 1); p++) {
-    y = y * z;
-    z = z - 1;
+function factorial (num) {
+  if (num === 0) {
+    return 1;
+  } else {
+    return num * factorial(num - 1);
   }
-  return y;
 }
 
 if (x) {
