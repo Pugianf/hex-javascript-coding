@@ -4,8 +4,13 @@ const process = require('process');
 
 const args = process.argv;
 
+const x = parseInt(args[2]);
+
+const y = parseInt(args[3]);
+
 function add (a, b) {
   return (a + b);
 }
 
-console.log(add(ParseInt(args[2]), ParseInt(args[3])));
+console.log(add(x, y));
+
