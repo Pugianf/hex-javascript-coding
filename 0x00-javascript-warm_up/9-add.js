@@ -13,4 +13,3 @@ function add (a, b) {
 }
 
 console.log(add(x, y));
-
