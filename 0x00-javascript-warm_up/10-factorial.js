@@ -11,8 +11,8 @@ let y = 1;
 const k = x;
 
 function factorial (z) {
-  for (let p = 0; p < k; p++) {
-    y = z * (z - 1);
+  for (let p = 0; p < (k - 1); p++) {
+    y = y * z;
     z = z - 1;
   }
   return y;
