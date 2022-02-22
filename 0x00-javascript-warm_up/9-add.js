@@ -4,8 +4,8 @@ const process = require('process');
 
 const args = process.argv;
 
-function add(a, b) {
+function add (a, b) {
   return (a + b);
 }
 
-console.log(add(args[2], args[3]));
+console.log(add(ParseInt(args[2]), ParseInt(args[3])));
