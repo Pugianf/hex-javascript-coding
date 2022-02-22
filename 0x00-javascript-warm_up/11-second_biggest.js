@@ -12,5 +12,6 @@ if (args.length <= 1) {
   console.log(0);
 } else {
   argsInt = args.sort(sortNum);
-  console.log(argsInt[1]);
+  argsInt.pop();
+  console.log(parseInt(argsInt[argsInt.length - 1]));
 }
