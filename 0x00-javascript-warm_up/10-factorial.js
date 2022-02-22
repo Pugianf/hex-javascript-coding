@@ -17,5 +17,5 @@ function factorial (num) {
 if (x) {
   console.log(factorial(x));
 } else {
-  console.log(y);
+  console.log(1);
 }
