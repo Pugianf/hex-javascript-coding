@@ -1,3 +1,3 @@
 #!/usr/bin/node
 
-myObject.value = 89
+myObject.value = 89;
